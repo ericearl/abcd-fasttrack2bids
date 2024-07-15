@@ -57,7 +57,7 @@ If the correct password is not returned, then run the following to fix the NDA c
 
 ```shell
 cd ~/abcd-fasttrack2bids
-poetry run python -c 'keyring.set_password("nda-tools", "<username>", "<password>")`
+poetry run python -c 'keyring.set_password("nda-tools", "<username>", "<password>")'
 ```
 
 **Important Note**: your NDA password and keyring password cannot differ. It's also important to be careful if you use exclamation marks or other special characters in the password that can trigger keyring issues/errors.
